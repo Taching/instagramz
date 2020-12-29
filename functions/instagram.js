@@ -1,6 +1,6 @@
 require("isomorphic-fetch")
 
-const url = `https://www.instagram.com/graphql/query/?query_hash=003056d32c2554def87228bc3fd9668a&variables={"id":"595311224","first":4}`
+const url = `https://www.instagram.com/graphql/query/?query_hash=003056d32c2554def87228bc3fd9668a&variables={"id":"595311224","first":5}`
 
 const cache = {
   lastFetch: 0,
