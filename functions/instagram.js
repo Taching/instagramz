@@ -24,7 +24,7 @@ async function getPosts() {
   if (timeSinceLastFetch <= 1800000) {
     return cache.posts
   }
-  const data = await fetch(url).then(res)
+  const data = await fetch(url)
   console.log(data)
   const posts = slimUpPosts(data)
   cache.lastFetch = Date.now()
